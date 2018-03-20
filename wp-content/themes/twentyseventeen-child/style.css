@@ -1,0 +1,83 @@
+/*
+Theme Name: Twentyseventeen Child
+Theme URI: http: //eandaclans.us/
+Description: This is a custom child theme I have created.
+Author: Francis Corbin
+Author URI: http: //eandaclans.us/
+Template: twentyseventeen
+Version: 0.1
+*/
+
+@import url("../twentyseventeen/style.css");
+@import url("jquery.datetimepicker.css");
+
+button, input[type="button"], input[type="submit"] {
+	background-color: #111;
+	padding: 0.1em 0.2em;
+	font-weight: 200;
+}
+
+select {
+	height: 2em;
+}
+
+.fmac_rowMyWar {
+	background-color: rgba(74, 74, 74, 1);
+}
+
+.fmac_rowNoMyWar {
+	background-color: rgba(54, 54, 54, 1);
+}
+
+.opponentName{
+	color: rgba(82, 82, 82, 1);	
+}
+
+
+.fmac_rowWars {
+	background-color: #e08a82;
+	color: rgba(51,51,51,1);
+}
+.fmac_rowLoots {
+	background-color: #89d181;
+	color: rgba(51,51,51,1);
+}
+.fmac_rowSearches{
+	background-color: #91bbff;
+}
+.fmac_Alert{
+	border: 1px solid #fad42e;
+    background: #fbec88 50% 50% repeat-x;
+    color: #363636;
+}
+
+.fmac_inThePast {
+	text-decoration: line-through;
+}
+
+.fmac_leftFloat {
+	clear: both;
+    float:left;
+}
+
+th {
+	padding: 0.1em;
+}
+
+th:first-child,
+td:first-child {
+	padding-left: 1;
+}
+
+
+table.fmac_mywars tr td:nth-child(8) {
+    border-right: 1px solid black;
+}
+
+
+/*@media only screen and (max-width: 480px) {*/
+@media only screen and (max-width: 1080px) {
+    body, input, button, select {
+        font-size: 12px;
+    }
+}
